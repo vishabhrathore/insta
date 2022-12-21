@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+
+// import Login from './login-signup/login';
+import PostView from './postviewPage/post'
+// import Postviewnew from './postviewnew';
+import To_Routes from './to-route/to_routes';
+import { BrowserRouter } from 'react-router-dom';
+import Login from './login-signup/login';
+import CreatePost from './createPost/addPost';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <BrowserRouter>
+      <To_Routes/>
+      </BrowserRouter> */}
+      {/* <Login/> */}
+     {/* <PostView/> */}
+     <CreatePost/>/
+     
     </div>
   );
 }

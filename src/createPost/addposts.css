@@ -1,0 +1,16 @@
+.post-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-form{
+    border: 1px solid rgb(180, 180, 180);
+}
+
+.postinp{
+    margin: 10px;
+    border: 1px solid rgb(180, 180, 180)
+}
+.inptfile{
+    visibility: hidden;
+}
